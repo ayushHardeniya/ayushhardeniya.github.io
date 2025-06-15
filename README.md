@@ -20,7 +20,7 @@ Here’s a quick breakdown of the core files that power this website:
 - 🌐 CNAME → Used for custom domain setup on GitHub Pages.
 - 📜 LICENSE.md → Open-source MIT License.
 - 🤌 CONTRIBUTING.md → Reflecting steps for open source contributionss.
-- 📈 CODE_OF_CONDUCT.md → Guided by values of respect, collaboration & clarity — see [Code of Conduct](https://github.com/ayushHardeniya/ayushhardeniya.github.io/blob/main/CODE_OF_CONDUCT.md)
+- 📈 CODE_OF_CONDUCT.md → Guided by values of respect, collaboration & clarity — see [Code of Conduct](https://github.com/ayushHardeniya/ayushhardeniya.github.io/blob/main/.github/CODE_OF_CONDUCT.md)
 
 ---
 
@@ -58,7 +58,7 @@ Since this is a static website, simply open the index.html file in your browser:
 ### 🤝 Want to Contribute? Here’s How!
 This website is open-source, and your improvements matter! Whether it's UI enhancements, bug fixes, or new features, every contribution helps. <br>
 📜 Contribution Guidelines<br>
-To keep contributions organized, please read our [CONTRIBUTING.md](https://github.com/ayushHardeniya/ayushhardeniya.github.io/blob/main/CONTRIBUTING.md) file before submitting any changes. It covers: <br>
+To keep contributions organized, please read our [CONTRIBUTING.md](https://github.com/ayushHardeniya/ayushhardeniya.github.io/blob/main/.github/CONTRIBUTING.md) file before submitting any changes. It covers: <br>
 ✅ How to fork & clone the repository.<br>
 ✅ How to create branches and follow best practices.<br>
 ✅ How to submit pull requests properly.
