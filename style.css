@@ -1112,12 +1112,12 @@ highlight {
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 280px;
+            height: 380px;
             flex-direction: column;
             gap: 1.5rem;
             background: linear-gradient(135deg, var(--section-light-blue), var(--primary-light));
             border-radius: 16px;
-            padding: 0rem;
+            padding: 0.3rem;
             border: 2px dashed var(--section-dark-blue);
         }
 
