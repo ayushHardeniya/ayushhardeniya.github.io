@@ -1065,7 +1065,7 @@ highlight {
             background: linear-gradient(135deg, var(--section-light-blue), var(--primary-light));
             border: 2px solid var(--section-dark-blue);
             border-radius: 20px;
-            padding: 2.5rem;
+            padding: 1.8rem;
             text-align: center;
             transition: all 0.3s ease;
             box-shadow: 0 8px 20px rgba(0, 36, 68, 0.08);
@@ -1090,7 +1090,7 @@ highlight {
             font-size: 1rem;
             line-height: 1.6;
         }
-
+/*
         .subscribe-form {
             display: flex;
             justify-content: center;
@@ -1118,6 +1118,7 @@ highlight {
         .subscribe-input::placeholder {
             color: #9ca3af;
         }
+*/
 
         .subscribe-btn {
             background: linear-gradient(135deg, var(--primary-blue), var(--accent-blue));
