@@ -2,7 +2,7 @@
 :root {
     --primary-light: #e0f7fa; /* Light Cyan (lightest version of sky blue) */
     --primary-blue: #002444; /* Original primary blue footer*/
-    --accent-blue: #4db6ac; /* Light teal */
+    --accent-blue: #4db6ac; /* Light teal (on greenish side) */
     --background: #f3f4f6; /* Light gray */
     --text-dark: #111827; /* Dark Gray */
     --section-background: #ffffff; /* white */
