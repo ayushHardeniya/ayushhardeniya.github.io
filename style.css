@@ -573,6 +573,10 @@ highlight {
             color: var(--text-dark);
         }
 
+
+
+        /* About Section */
+
         .section-title {
             font-size: 2.8rem;
             color: var(--text-dark);
