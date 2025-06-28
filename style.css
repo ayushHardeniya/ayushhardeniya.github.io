@@ -82,7 +82,7 @@ img {
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
     align-items: center;
 }
 
@@ -91,11 +91,17 @@ img {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
-    padding: 0.5rem;
+    padding: 0rem;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     display: inline-flex;
     align-items: center;
-    gap: 0.1rem;
+    gap: 0rem;
+}
+
+.nav-item i.fa-angle-down {
+  font-size: 0.75em;    
+  vertical-align: middle;
+  margin-left: 4px;     
 }
 
 .nav-link:hover {
@@ -224,7 +230,7 @@ img {
 
 .mobile-menu-content {
     padding: 2rem 5%;
-    height: calc(100vh - 80px);
+    height: calc(95vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -234,7 +240,7 @@ img {
 .mobile-nav {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0rem;
 }
 
 .mobile-nav-link {
