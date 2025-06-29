@@ -33,4 +33,4 @@ Paste relevant screenshots here (optional)
 ---
 
 👤 **Contributor Name:**  
-  @ayushHardeniya
+  @your_name
