@@ -247,6 +247,7 @@
     <!-- About Section -->
     <section id="about">
         <h2 class="section-title">Know Me Better</h2>
+        <br><br>
         <div class="container">     
         <p style="font-family: 'Inter', sans-serif; line-height: 1.6; font-size: 1.4rem; max-width: 800px; margin: auto; margin: 0 auto; text-align: center; ">
             [Legal Name:<b>Ayush Sharma</b>] </p><br>
@@ -254,7 +255,7 @@
             Hi, I'm <b>Ayush Hardeniya</b> (also known as Ayush Sharma) - a <b>student</b>, <b>web creator</b>, and <b>lifelong learner</b> passionate about technology, design, and the art of digital self-expression.
         </p>
         <p class="section-subtitle">
-            I love building meaningful things that solve real problems and reflect intentional design. Here's a quick glimpse into my journey - driven by curiosity, vision, and heart. 🌱
+            I love building meaningful things that solve real problems and reflect intentional design. Here's a quick glimpse into my journey sp far - driven by curiosity, vision, and heart. 🌱
         </p>
 
 <br><br><br>
@@ -334,6 +335,7 @@
     <!-- Links Section -->
     <section id="social-links">
         <h2 class="section-title">Find Me Online</h2>
+        <br><br>
         <div class="container">
             <div class="social-grid">
                 
@@ -399,7 +401,7 @@
 
     <!-- Values Section -->
     <section id="values">
-        <h2 class="section-title">What Drives Me</h2>
+        <h2 class="section-title">What Drives Me</h2><br>
         <div class="container">
             <div class="values-grid">
                 <div class="value-card">
@@ -439,6 +441,7 @@
     <section id="blog" class="blog-section">
         <div class="section-header">
             <h2 class="section-title">Blog</h2>
+            <br>
             <p class="section-subtitle">Exploring life, technology, and everything in between through personal reflections and technical insights.</p>
         </div>
 
@@ -516,11 +519,14 @@
         </div>
     </section>
 
+    <!-- Reading Section -->
+
     <section class="reading-section">
         <div class="container">
             <div class="section-content">
                 <div class="reading-header">
                     <h2>My Reading Journey</h2>
+                    <br>
                     <p>Exploring knowledge through books - from current reads to completed adventures</p>
                 </div>
 
@@ -626,46 +632,39 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Contact</h2>
-        <div class="container">
-            <p class="section-subtitle">Let's connect and build something together</p>
-            <p>Mail: <u><a class="email-link" href="mailto:connect@ayushhardeniya.site">connect@ayushhardeniya.site</a></u></p>
-        </div>
-        <br>
-        <P> Or <b>Fill the form</b>-<br>
-        </P>
-    
-    <!-- Form code, fetched with formspree, forwarding to (Mail- aH.grid@ -->
-
-    <div class="form-container">
-        <div class="form-header">
-            <h2>Bridge The Gap</h2>
-            <p>Ready to build something amazing together? Drop me a message!</p>
-        </div>
-
-        <!-- Formspree based contact form, -->
-        <form action="https://formspree.io/f/xeokgjoz" method="POST" id="contactForm">
-            <div class="form-group">
-                <label for="name">Name <span class="required">*</span></label>
-                <input type="text" id="name" name="name" required>
+        
+        <div class="contact-container">
+            <!-- Left Side - Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Ready to bring your vision to life? Let's discuss your project or an idea.</p>
+                <a href="mailto:connect@ayushhardeniya.site" class="email-link">connect@ayushhardeniya.site</a>
             </div>
+            
 
-            <div class="form-group">
-                <label for="email">Email <span class="required">*</span></label>
-                <input type="email" id="email" name="email" required>
+            <!-- Right Side - Contact Form -->
+            <!-- Form code, fetched with formspree, forwarding to (Mail- aH.grid@) -->
+
+            <div class="form-container">
+                <form action="https://formspree.io/f/xeokgjoz" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                    </button>
+                </form>
             </div>
-
-            <div class="form-group">
-                <label for="message">Message <span class="required">*</span></label>
-                <textarea id="message" name="message" required placeholder="Tell me more about your project or idea..."></textarea>
-            </div>
-
-            <button type="submit" class="submit-btn">Send Message</button>
-        </form>
-
-        <div class="form-note">
-            <strong>We shall get back to you within 36 hours!</strong> 
         </div>
-    </div> 
     </section>
 
     <!-- Footer -->
