@@ -569,7 +569,7 @@ highlight {
 
         /* Contact Section */
         #contact {
-            background: var(--section-light-blue); 
+            background: var(--section-dark-blue); 
             color: var(--text-dark);
         }
 
