@@ -142,6 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - **GitHub**: [@ayushHardeniya](https://github.com/ayushhardeniya)
 - **LinkedIn**: [ayushhardeniya](https://linkedin.com/in/ayushhardeniya)
 - **Twitter/X**: [@ayushhardeniya](https://x.com/ayushhardeniya)
+- **Instagram**: [ayush.hardeniya](https://instagram.com/ayush.hardeniya)
 - **Medium**: [@ayushhardeniya](https://medium.com/@ayushhardeniya)
 - **Blog**: [blog.ayushhardeniya.site](https://blog.ayushhardeniya.site)
 
