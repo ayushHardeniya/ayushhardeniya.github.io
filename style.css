@@ -1565,7 +1565,7 @@ footer {
 /* About page styles */
 .about-section {
     padding: 60px 20px;
-    background-color: var(--primary-blue);
+    background-color: var(--section-dark-blue);
     color: #333;
     line-height: 1.7;
 }
