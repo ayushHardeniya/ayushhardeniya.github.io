@@ -3,7 +3,7 @@
 ![Website Preview](assets/website-pw-1.png)
 
 [![GitHub license](https://img.shields.io/github/license/ayushHardeniya/ayushhardeniya.github.io)](https://github.com/ayushHardeniya/ayushhardeniya.github.io/blob/main/LICENSE.md)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fayushhardeniya.site)](https://ayushhardeniya.site)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fayushhardeniya.me)](https://ayushhardeniya.me)
 
 > Authorized & Maintained by Ayush Hardeniya
 
@@ -11,7 +11,7 @@
 
 Welcome to the GitHub repository for my personal website and portfolio! This project showcases my skills, projects, and journey as a developer, designer, and creator. Built with clean and modern web technologies, this site serves as both my digital presence and an open-source project others can learn from.
 
-🔗 **[Visit Live Website](https://ayushhardeniya.site/)**
+🔗 **[Visit Live Website](https://ayushhardeniya.me/)**
 
 ## ✨ Features
 
@@ -138,13 +138,13 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 📞 Contact & Social Links
 
-- **Website**: [ayushhardeniya.site](https://ayushhardeniya.site)
+- **Website**: [ayushhardeniya.me](https://ayushhardeniya.me)
 - **GitHub**: [@ayushHardeniya](https://github.com/ayushhardeniya)
 - **LinkedIn**: [ayushhardeniya](https://linkedin.com/in/ayushhardeniya)
 - **Twitter/X**: [@ayushhardeniya](https://x.com/ayushhardeniya)
 - **Instagram**: [ayush.hardeniya](https://instagram.com/ayush.hardeniya)
 - **Medium**: [@ayushhardeniya](https://medium.com/@ayushhardeniya)
-- **Blog**: [blog.ayushhardeniya.site](https://blog.ayushhardeniya.site)
+- **Blog**: [blog.ayushhardeniya.me](https://blog.ayushhardeniya.me)
 
 ## 🚀 Support This Project
 
@@ -157,4 +157,4 @@ If you find this project helpful or interesting:
 
 ---
 
-Built with 💻 and ❤️ by [Ayush Hardeniya](https://ayushhardeniya.site)
+Built with 💻 and ❤️ by [Ayush Hardeniya](https://ayushhardeniya.me)

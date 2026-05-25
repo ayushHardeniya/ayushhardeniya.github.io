@@ -196,7 +196,7 @@ class LifeNotesManager {
         }
 
         function subscribeToCodeNotes() {
-            window.open('https://blog.ayushhardeniya.site/newsletter', '_blank');
+            window.open('https://blog.ayushhardeniya.me/newsletter', '_blank');
         }
 
         function isValidEmail(email) {
