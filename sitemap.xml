@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Sitemap for Ayush Hardeniya’s personal website -->
+ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <url>
-    <loc>https://ayushhardeniya.site/</loc>
-    <lastmod>2025-05-27</lastmod>
+    <loc>https://ayushhardeniya.me/</loc>
+    <lastmod>2026-05-25</lastmod>
   </url>
 
   <url>
-    <loc>https://ayushhardeniya.site/about/</loc>
-    <lastmod>2025-06-27</lastmod>
+    <loc>https://ayushhardeniya.me/about/</loc>
+    <lastmod>2026-05-25</lastmod>
   </url>
 
   <url>
-    <loc>https://ayushhardeniya.site/portfolio/</loc>
-    <lastmod>2025-06-27</lastmod>
+    <loc>https://ayushhardeniya.me/portfolio/</loc>
+    <lastmod>2026-05-25</lastmod>
   </url>
 
   <url>
-    <loc>https://ayushhardeniya.site/subscribe/</loc>
-    <lastmod>2025-06-29</lastmod>
+    <loc>https://ayushhardeniya.me/subscribe/</loc>
+    <lastmod>2026-05-25</lastmod>
   </url>
 
   <url>
-    <loc>https://ayushhardeniya.site/newsletter/</loc>
-    <lastmod>2025-06-29</lastmod>
+    <loc>https://ayushhardeniya.me/newsletter/</loc>
+    <lastmod>2026-05-25</lastmod>
   </url>
 
 </urlset>
