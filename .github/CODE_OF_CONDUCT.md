@@ -28,7 +28,7 @@ The following actions will not be tolerated:
 
 If you witness or experience any behaviour that violates this Code of Conduct, you can report it through the following:
 
-- 📧 **Email**: [connect@ayushhardeniya.site](mailto:connect@ayushhardeniya.site)
+- 📧 **Email**: [connect@ayushhardeniya.me](mailto:connect@ayushhardeniya.me)
 - 🔗 **GitHub Issues**: Feel free to open a respectful issue and tag it as `coc-report`.
 
 All reports will be handled confidentially and reviewed as promptly as possible.
@@ -43,7 +43,7 @@ Violation of this Code may result in:
 
 Enforcement decisions are made to protect the community's well-being and productivity.
 
-- Project maintainers (currently [Ayush Hardeniya](https://ayushhardeniya.site)) are responsible for clarifying and enforcing this Code of Conduct. Inappropriate behaviour may result in removal from contributions, issues, or pull requests.
+- Project maintainers (currently [Ayush Hardeniya](https://ayushhardeniya.me)) are responsible for clarifying and enforcing this Code of Conduct. Inappropriate behaviour may result in removal from contributions, issues, or pull requests.
 
 
 ## 6️⃣ Acknowledgments
