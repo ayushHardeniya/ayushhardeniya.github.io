@@ -1,16 +1,10 @@
-<!DOCTYPE html>
+l<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-
-  <title>
-    Building EnerFabric: Intent-Driven Energy Orchestration on AWS
-  </title>
+  <title>Building EnerFabric: Intent-Driven Energy Orchestration on AWS</title>
 
   <meta
     name="description"
@@ -19,51 +13,49 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="article" />
-
   <meta
     property="og:title"
     content="Building EnerFabric: Intent-Driven Energy Orchestration on AWS"
   />
-
   <meta
     property="og:description"
     content="A technical walkthrough of EnerFabric, an intent-driven platform for orchestrating distributed energy resources on AWS."
   />
-
   <meta
     property="og:image"
-    content="https://ayushhardeniya.github.io/articles/enerfabric/enerfabric-thumbnail.png"
+    content="https://ayushhardeniya.me/articles/enerfabric/enerfabric-thumbnail.png"
   />
-
+  <meta
+    property="og:image:secure_url"
+    content="https://ayushhardeniya.me/articles/enerfabric/enerfabric-thumbnail.png"
+  />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta
     property="og:image:alt"
     content="Building EnerFabric: Intent-Driven Energy Orchestration on AWS"
   />
-
-  <meta property="og:image:type" content="image/png" />
-
-  <meta property="og:url" content="https://ayushhardeniya.me/articles/enerfabric/" />
-
+  <meta
+    property="og:url"
+    content="https://ayushhardeniya.me/articles/enerfabric/"
+  />
   <meta property="og:site_name" content="ayushHardeniya" />
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image" />
-
   <meta
     name="twitter:title"
     content="Building EnerFabric: Intent-Driven Energy Orchestration on AWS"
   />
-
   <meta
     name="twitter:description"
     content="A technical walkthrough of EnerFabric, an intent-driven platform for orchestrating distributed energy resources on AWS."
   />
-
   <meta
     name="twitter:image"
-    content="https://ayushhardeniya.github.io/articles/enerfabric/enerfabric-thumbnail.png"
+    content="https://ayushhardeniya.me/articles/enerfabric/enerfabric-thumbnail.png"
   />
-
   <meta
     name="twitter:image:alt"
     content="Building EnerFabric: Intent-Driven Energy Orchestration on AWS"
@@ -76,28 +68,17 @@
   />
 
   <style>
-    :root {
-      color-scheme: dark;
-      --bg: #080b10;
-      --text: #f5f7fa;
-      --muted: #9aa4b2;
-      --accent: #00a67e;
-    }
-
     * {
       box-sizing: border-box;
     }
 
     html,
     body {
+      margin: 0;
       width: 100%;
       height: 100%;
-      margin: 0;
-    }
-
-    body {
-      background: var(--bg);
-      color: var(--text);
+      background: #05070b;
+      color: #ffffff;
       font-family:
         Inter,
         ui-sans-serif,
@@ -106,134 +87,137 @@
         BlinkMacSystemFont,
         "Segoe UI",
         sans-serif;
+    }
+
+    body {
       overflow: hidden;
     }
 
     .page {
       position: relative;
       width: 100%;
-      min-height: 100%;
+      height: 100vh;
+      min-height: 600px;
       display: flex;
       align-items: center;
       justify-content: center;
-      isolation: isolate;
-      background:
-        radial-gradient(
-          circle at 75% 50%,
-          rgba(0, 166, 126, 0.10),
-          transparent 35%
-        ),
-        var(--bg);
+      overflow: hidden;
+      background: #05070b;
     }
 
     .background {
       position: absolute;
       inset: 0;
-      z-index: -2;
       background-image:
         linear-gradient(
           90deg,
-          rgba(8, 11, 16, 0.98) 0%,
-          rgba(8, 11, 16, 0.94) 35%,
-          rgba(8, 11, 16, 0.60) 65%,
-          rgba(8, 11, 16, 0.30) 100%
+          rgba(5, 7, 11, 0.96) 0%,
+          rgba(5, 7, 11, 0.88) 30%,
+          rgba(5, 7, 11, 0.55) 58%,
+          rgba(5, 7, 11, 0.28) 100%
         ),
-        url("enerfabric-thumbnail.png");
+        url("https://ayushhardeniya.me/articles/enerfabric/enerfabric-thumbnail.png");
       background-size: cover;
       background-position: center;
-      filter: saturate(0.85);
-      transform: scale(1.025);
-      animation: backgroundIn 900ms ease-out both;
+      transform: scale(1.03);
+      filter: saturate(0.9);
     }
 
     .overlay {
       position: absolute;
       inset: 0;
-      z-index: -1;
       background:
+        radial-gradient(
+          circle at 70% 50%,
+          rgba(255, 255, 255, 0.04),
+          transparent 40%
+        ),
         linear-gradient(
           180deg,
-          rgba(8, 11, 16, 0.18),
-          rgba(8, 11, 16, 0.55)
+          rgba(0, 0, 0, 0.15),
+          rgba(0, 0, 0, 0.38)
         );
     }
 
     .content {
+      position: relative;
+      z-index: 2;
       width: min(900px, calc(100% - 48px));
-      padding: 48px;
-      animation: contentIn 650ms ease-out both;
+      margin-right: auto;
+      margin-left: 8%;
+      padding: 32px 0;
+      animation: contentIn 700ms ease-out both;
     }
 
     .eyebrow {
       display: inline-flex;
       align-items: center;
-      gap: 9px;
       margin-bottom: 22px;
-      color: #cbd5e1;
-      font-size: 13px;
+      padding: 7px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(12px);
+      color: rgba(255, 255, 255, 0.78);
+      font-size: 12px;
       font-weight: 600;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
     }
 
-    .eyebrow::before {
-      content: "";
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--accent);
-      box-shadow: 0 0 18px rgba(0, 166, 126, 0.65);
-    }
-
     h1 {
-      max-width: 760px;
+      max-width: 800px;
       margin: 0;
-      font-size: clamp(32px, 5vw, 62px);
-      line-height: 1.04;
-      letter-spacing: -0.04em;
-      font-weight: 700;
+      font-size: clamp(38px, 5vw, 72px);
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+      font-weight: 750;
+      text-wrap: balance;
     }
 
     .subtitle {
-      max-width: 650px;
-      margin: 20px 0 34px;
-      color: #c2cad5;
-      font-size: clamp(16px, 2vw, 20px);
-      line-height: 1.55;
+      max-width: 700px;
+      margin: 24px 0 0;
+      color: rgba(255, 255, 255, 0.72);
+      font-size: clamp(16px, 1.5vw, 20px);
+      line-height: 1.6;
     }
 
     .loading {
-      display: inline-flex;
+      display: flex;
       align-items: center;
       gap: 11px;
-      color: #e5e7eb;
+      margin-top: 34px;
+      color: rgba(255, 255, 255, 0.68);
       font-size: 14px;
+      letter-spacing: 0.01em;
     }
 
     .spinner {
       width: 16px;
       height: 16px;
-      border: 2px solid rgba(255, 255, 255, 0.20);
-      border-top-color: var(--accent);
+      border: 2px solid rgba(255, 255, 255, 0.18);
+      border-top-color: rgba(255, 255, 255, 0.9);
       border-radius: 50%;
-      animation: spin 700ms linear infinite;
+      animation: spin 800ms linear infinite;
     }
 
     .fallback {
       position: fixed;
-      bottom: 22px;
-      left: 50%;
-      transform: translateX(-50%);
-      color: var(--muted);
+      z-index: 3;
+      right: 24px;
+      bottom: 20px;
+      color: rgba(255, 255, 255, 0.45);
       font-size: 12px;
-      opacity: 0;
-      animation: fallbackIn 2s ease 2s forwards;
     }
 
     .fallback a {
-      color: #d8dee8;
+      color: rgba(255, 255, 255, 0.72);
+      text-decoration: none;
+    }
+
+    .fallback a:hover {
       text-decoration: underline;
-      text-underline-offset: 3px;
     }
 
     @keyframes spin {
@@ -245,7 +229,7 @@
     @keyframes contentIn {
       from {
         opacity: 0;
-        transform: translateY(10px);
+        transform: translateY(12px);
       }
 
       to {
@@ -254,41 +238,38 @@
       }
     }
 
-    @keyframes backgroundIn {
-      from {
-        opacity: 0;
-        transform: scale(1.05);
-      }
-
-      to {
-        opacity: 1;
-        transform: scale(1.025);
-      }
-    }
-
-    @keyframes fallbackIn {
-      to {
-        opacity: 1;
-      }
-    }
-
-    @media (max-width: 640px) {
+    @media (max-width: 700px) {
       .content {
-        width: min(100% - 32px, 900px);
-        padding: 28px 16px;
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+      h1 {
+        font-size: clamp(34px, 10vw, 52px);
+      }
+
+      .subtitle {
+        font-size: 16px;
       }
 
       .background {
         background-position: 62% center;
       }
+
+      .fallback {
+        right: 16px;
+        bottom: 14px;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
-        animation-duration: 1ms !important;
-        animation-iteration-count: 1 !important;
+      .content {
+        animation: none;
+      }
+
+      .spinner {
+        animation: none;
       }
     }
   </style>
@@ -331,8 +312,6 @@
     const destination =
       "https://builder.aws.com/content/3JbPJCddvy8toEuNfNZUgl1iK7i/building-enerfabric-intent-driven-energy-orchestration-on-aws";
 
-    // Give browsers enough time to paint the page naturally,
-    // while keeping the transition quick.
     window.setTimeout(() => {
       window.location.replace(destination);
     }, 750);
